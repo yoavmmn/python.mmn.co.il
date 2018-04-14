@@ -226,6 +226,11 @@
 }
 
 /* My custom css */
+body {
+  direction: rtl;
+  font-family: "Rubik";
+}
+
 .media {
   border-radius: 5px;
   border: 1px solid #cecece;
@@ -260,4 +265,21 @@
   clear: both;
   content: '';
   display: block;
+}
+
+/* RTL alignment */
+.column, .columns {
+  float: right;
+}
+
+@media (min-width: 550px) {
+  .column, .columns {
+    margin-left: 0;
+    margin-right: 4%;
+  }
+
+  .column:first-child, .columns:first-child {
+    margin-left: 0;
+    margin-right: 0;
+  }
 }

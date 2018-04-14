@@ -38,7 +38,7 @@
 .column,
 .columns {
   width: 100%;
-  float: left;
+  float: right;
   box-sizing: border-box; }
 
 /* For devices larger than 400px */
@@ -54,10 +54,10 @@
     width: 80%; }
   .column,
   .columns {
-    margin-left: 4%; }
+    margin-right: 4%; }
   .column:first-child,
   .columns:first-child {
-    margin-left: 0; }
+    margin-right: 0; }
 
   .one.column,
   .one.columns                    { width: 4.66666666667%; }
@@ -644,4 +644,40 @@ there.
   .popover-link:hover,
   .popover-item:first-child .popover-link:hover:after {
     border-bottom-color: #33C3F0; }
+}
+
+.media {
+  border-radius: 5px;
+  border: 1px solid #cecece;
+}
+
+.media-body {
+  padding: 0px 10px 10px;
+}
+
+.media img {
+  width: 100%;
+  border-bottom: 1px solid #cecece;
+}
+
+.media .media-body h6 {
+  font-weight: 600;
+  font-size: 1.7rem;
+  margin-bottom: 5px;
+}
+
+.media .media-body .description {
+  font-weight: 400;
+  /*margin-bottom: 0;*/
+}
+
+.media .media-body .button {
+  float: left;
+  margin-bottom: 0;
+}
+
+.media .media-body:after {
+  clear: both;
+  content: '';
+  display: block;
 }

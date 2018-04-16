@@ -47,6 +47,10 @@ body {
   border-top: 1px solid #eee;
 }
 
+.footer ul {
+  padding: 0;
+}
+
 .footer ul li {
   list-style: none;
   display: inline-block;

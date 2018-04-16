@@ -10,6 +10,10 @@ body {
   border: 1px solid #cecece;
 }
 
+.row .column:last-child .media, .row .columns:last-child .media {
+  margin-bottom: 0;
+}
+
 .media-body {
   padding: 0px 10px 10px;
 }
